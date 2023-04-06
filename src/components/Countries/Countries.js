@@ -18,7 +18,7 @@ const Countries = () => {
 
       <div className="country-container">
         {countries.map((country) => (
-          <Country country={country}></Country>
+          <Country country={country} key={country.cca3}></Country>
         ))}
       </div>
     </div>
@@ -26,3 +26,5 @@ const Countries = () => {
 };
 
 export default Countries;
+
+// use npm run build to create build file and to deploy in netlify

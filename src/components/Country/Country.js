@@ -10,7 +10,9 @@ const Country = (props) => {
       <h3>Region: {region}</h3>
       <h4>Population: {population}</h4>
 
-      <h5>Area: {area}</h5>
+      <h5>
+        Area: {area} Km<sup>2</sup>
+      </h5>
       <img src={flags.png} alt="" />
     </div>
   );
