@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Countries></Countries>
       <Person></Person>
+      <Countries></Countries>
       {/* <LoadCountries></LoadCountries> */}
     </div>
   );
